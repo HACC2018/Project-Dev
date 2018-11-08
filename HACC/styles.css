@@ -1,0 +1,355 @@
+@font-face { /* For Inkling Font */
+    font-family: woomy;
+    src: url(fonts/Paintball_Beta.otf);
+}
+
+* {
+    font-family: woomy;
+    /* border: 1px solid black; */
+}
+
+body,html,#root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#header {
+    display: inline-flex;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+    position:fixed;
+    top: 0%;
+    transition: all 0.75s;
+    background-color: rgba(0,0,0,0.2);
+    flex-direction: row;
+} 
+
+#projectDev {
+    display: inline-block;
+    width: auto;
+    margin: 0 1rem;
+    height: 100%;
+}
+
+#projectDev > img {
+    margin: 1% auto;
+    height: 95%;
+}
+
+#misc {
+    display: inline-flex;
+    width: -webkit-fill-available;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* .options {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin: auto 1rem;
+} */
+
+.options {
+    font-size: 100%;
+    color: whitesmoke;
+    margin: auto 1rem;
+}
+
+#intro {
+    width: 100%;
+    height: 100%;
+}
+
+#mainBody {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    height: 200%;
+    flex-direction: column;
+}
+
+.uploaded {
+    width: min-content;
+    height: min-content;
+}
+
+
+ #imageContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#titleContainer {
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo,#title,#type {
+    text-align: center;
+}
+
+#logo > img {
+    width: 256px;
+}
+
+#type,#title {
+    color: white;
+}
+
+#title {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.showCasePicture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+
+.showCaseButton {
+    display:inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+    position: absolute;
+    top: 35%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    border-radius: 100%;
+}
+
+.showCaseButton:hover {
+    cursor: pointer;
+}
+
+#rightArrow {
+    right: 0%;
+}
+
+#home {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(242,242,242,1) 0%, rgba(119,255,133,1) 100%);
+}
+
+#slogan,#sloganDetail {
+    color: whitesmoke;
+    margin: 0;
+    text-align: center;
+}
+
+#slogan {
+    font-size: 3rem;
+    margin: 3rem 0 2rem 0;
+}
+
+#showCase {
+    display: table;
+    position: relative;
+    width: 50%;
+    height: 19rem;
+    margin: 1rem auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#showCaseText {
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+}
+
+#showCaseText > p {
+    font-size: 1.3rem;
+    color: rgba(242,242,242,1);
+}
+
+.button {
+    border: none;
+    display: table;
+    margin: 2rem auto 0 auto;
+    padding: 1rem 2rem;
+    color: whitesmoke;
+    background-color: #5ED4FF;
+    border-radius: 2%;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#discover {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(94,212,255);
+    background: linear-gradient(0deg, rgba(94,212,255,1) 0%, rgba(242,242,242,1) 100%);
+}
+
+#discoverSlogan {
+    font-size: 3rem;
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+    color: #212121;
+}
+
+#recent {
+    text-align: center;
+    color: #212121;
+}
+
+#discoverShowCase {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    height: 50%;
+    width: 100%;
+    overflow: scroll;
+}
+
+#discoverShowCase::-webkit-scrollbar { 
+    display: none;
+}
+
+.cardHolder {
+    display: inline-block;
+    margin: auto 1rem;
+    width: 45rem;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 0.75%;
+}
+
+.rootHolder {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.imageHolder {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.textHolder {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.discoveredPlant > h3 {
+    margin: 0;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+.details > * {
+    display: inline-block;
+}
+
+.discoverer,.discoveredDate,.whereabouts {
+    margin: 0 1.1rem;
+}
+
+.discoverer {
+    font-size: 1.5rem;
+}
+
+.discoveredDate {
+    font-size: 0.8rem;
+}
+
+.comment > p {
+    margin: 5%;
+}
+
+#signIn {
+    height: 50%;
+    width: 75%;
+    display: table;
+    margin: 0 auto;
+}
+
+#signUpSlogan {
+    text-align: center;
+}
+
+#signupStuff {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.5em 0;
+}
+
+#signupStuff > input {
+    display: inline-block;
+    width: 35%;
+    padding: 1rem;
+    margin: 0.25rem auto;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 1em;
+}
+
+
+/* PHP CSS */
+
+#main-container {
+    position: relative;
+    
+}
+
+#logout {
+    position: relative;
+    top: 10%;
+    color: white;
+    left: 20%;
+}
+
+#lgb {
+    left: 100%;
+    position: relative;
+}
+
+
+#color {
+    background-color: transparent;
+}

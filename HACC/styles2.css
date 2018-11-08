@@ -1,0 +1,94 @@
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+#headerForums {
+    display: inline-flex;
+    width: 100%;
+    height: 7%;
+    z-index: 1;
+    top: 0%;
+    background-color: #fafafb;
+    flex-direction: row;
+}
+
+.optionsf {
+    font-size: 100%;
+    color: rgb(56, 56, 56);
+    margin: auto 1rem;
+}
+
+#mainForum {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 91%;
+}
+
+#forumStart {
+    height: 100%;
+    width: 25%;
+    background: #ed8aff;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #d6d9dc;
+}
+
+#forumStart > * {
+    text-align: center;
+}
+
+#postContainer {
+    display: inline-flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    background: linear-gradient(270deg, rgba(241,216,250,1) 0%, rgba(250,213,255,1) 40%, rgba(93,228,255,1) 100%);
+}
+
+.post {
+    display: inline-flex;
+    position: relative;
+    margin: 1rem auto;
+    width: 98%;
+    height: 10em;
+    border: 2px solid black;
+    border-radius : 1em;
+}
+
+.creator {
+    position: absolute;
+    bottom: 4%;
+    right: 1%;
+    margin: 0;
+}
+
+.date {
+    position: absolute;
+    top: 6%;
+    left: 1%;
+    margin: 0;
+}
+
+.forumTitle {
+    display : table;
+    width: 50%;
+    height: auto;
+    margin : auto;
+    font-size: 100%;
+}
+
+.commentNumber {
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+}
