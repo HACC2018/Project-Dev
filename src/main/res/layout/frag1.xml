@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorMalGreen">
+
+                <TextView
+                    android:id="@+id/test005"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="Leaf It to Me Launch Party!"
+                    android:textAlignment="viewStart"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/test005"
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/party" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorTang">
+
+                <TextView
+                    android:id="@+id/test01"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="Plant of the Day 10/7/2018"
+                    android:textAlignment="viewStart"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/test02"
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/flower" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorTang">
+
+                <TextView
+                    android:id="@+id/oof0"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="Plant of the Day 10/06/2018"
+                    android:textAlignment="viewStart"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/oof4"
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    app:srcCompat="@drawable/flower" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorMalGreen">
+
+                <TextView
+                    android:id="@+id/test1"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="Augmented Plants is Out Now!"
+                    android:textAlignment="viewStart"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/test2"
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/cube" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorTang">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="Plants or No Plants?"
+                    android:textAlignment="viewStart"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    app:srcCompat="@drawable/face" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent">
+
+                <TextView
+                    android:id="@+id/test10"
+                    android:layout_width="250sp"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="Plant Identification tutorial]"
+                    android:textAlignment="viewStart"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/test10"
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    app:srcCompat="@drawable/ic_dashboard_black_24dp" />
+
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
